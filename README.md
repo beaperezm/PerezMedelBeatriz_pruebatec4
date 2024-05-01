@@ -148,8 +148,8 @@ Se trata de un desarrollo robusto que asegura la consistencia y calidad en la ge
         1. CustomerIn
         2. CustomerOut
            Con los campos:
-	   
             ```java
+	    
             	private String id;
 	     
 	        private String nuip;
@@ -159,6 +159,7 @@ Se trata de un desarrollo robusto que asegura la consistencia y calidad en la ge
 	        private String phone;
 	     
 	        private String address;
+	 
             ```
 
  🔹 libraries - a- WIKJR001
@@ -234,7 +235,7 @@ Datos insertados en la Base de Datos
 
 
 
-🔹 Intentando insertar nuevos datos con un fullname que tiene más de 50 caracteres
+🔹 Intentando insertar nuevos datos con un full name que tiene más de 50 caracteres
 
 ![7   Insertando fullname con mas de 50 caracteres](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/0d33ab95-73d8-454c-8330-6b7d6a9be9c4)
 
