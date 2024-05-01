@@ -20,34 +20,40 @@ Se ha realizado el mapeo entre capas, realizando un flujo entre facade, business
 
 - Si se intenta poner minúsculas en: _details.offerType_ el status de la respuesta será **400 Bad Request**
 
-![Minusculas](/imagenes%20aso/minusculas%20details.offerType.png)
+![minusculas details offerType](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/97406e65-9ebf-4722-b514-ffd87220e307)
+
 
 - La cantidad máxima permitida no puede ser nula _details.limitAmount.amount_
 
-![limitAmount](/imagenes%20aso/limitAmount%20null%20request.png)
-![limitAmount R](/imagenes%20aso/limitAmount%20null%20response.png)
+![limitAmount null request](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/cef7cfa4-f863-4a99-80ff-1f72dc648260)
+![limitAmount null response](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/d235a7f7-08c2-42a8-95a7-200f3a544847)
+
 
 - La moneda _details.limitAmount.currency_ no puede ser nula ni vacía
 
-![currency empty](/imagenes%20aso/currency%20vacia.png)
-![currency null](/imagenes%20aso/currency%20null.png)
+![currency null](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/0883c20b-4898-4ad6-bc9a-6f87017f93a2)
+![currency vacia](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/7f385458-6a24-483f-a54f-ac85569f8b10)
+
 
 - El identificador de producto _details.product.id_ tiene que ser TDC, sino la respuesta será **400 Bad Request**
 
-![tdc](/imagenes%20aso/TDC.png)
+![TDC](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/04b1dba4-2c77-4f7f-84d4-5dc902fdc9c8)
+
 
 - El subproducto _details.product.subproduct.id_ solo puede contener de 0 a 2 caracteres
 
-![tres](/imagenes%20aso/mas%20de%202%20caracteres.png)
+![mas de 2 caracteres](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/6f25d770-6049-4943-b07b-b707218e3e51)
 
-![dos](/imagenes%20aso/2caracter.png)
-![dos R](/imagenes%20aso/2caracterresponse.png)
+![2caracter](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/4a5b1af5-8386-419a-aa51-8188a3e1975d)
+![2caracterresponse](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/8b8cc2a0-b831-44af-ae03-b8480b584245)
 
-![uno](/imagenes%20aso/1caracter.png)
-![uno R](/imagenes%20aso/1caracterresponse.png)
+![1caracter](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/f37753f9-52d6-4c0f-89d1-69b18b89a68f)
+![1caracterresponse](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/b8093f05-4d46-43a6-911b-95aeb31a995c)
 
-![cero](/imagenes%20aso/0caracter.png)
-![cero R](/imagenes%20aso/0caracterresponse.png)
+![0caracter](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/9ea331ba-fd17-465c-8f1c-8147b9c4f8eb)
+![0caracterresponse](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/fc266f9c-04fb-4464-abb2-0fd0c41470af)
+
+
 
 ✅ Campos que son el mismo en la entrada y en la respuesta del servicio:
 
@@ -70,6 +76,7 @@ Se ha realizado el mapeo entre capas, realizando un flujo entre facade, business
 ✅ El campo de salida _data.nuip_ es el mismo que el del @PathParam
 
 ```java
+
 http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/123456789
 
  "nuip": "123456789"
@@ -96,24 +103,30 @@ http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/123456789
             "currency": "EUR",
             "amount": 210000
 }
-
 ```
 
 🔹 El resultado obtenido en Postman es este:
 
 ✔️ REQUEST:
 
-![Request Postman](/imagenes%20aso/requestPostman.png)
+![requestPostman](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/f4cf77e5-39e4-4996-8611-e7c274f04c01)
+
+
 
 ✔️ RESPONSE:
 
-![Response Postman](/imagenes%20aso/responsePostman.png)
+![responsePostman](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/13cae5c9-7dfd-4dd2-89f8-c05096d1cc45)
+
+
 
 🔹 Al considerarse mala práctica, en el código ningún import tiene \* ; ejemplos:
 
-![dao](/imagenes%20aso/imports%20sin%20asterisco%20DAO.png)
+![imports sin asterisco DAO](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/28763639-9bae-4ffb-8feb-571686c7a13c)
 
-![facade impl](/imagenes%20aso/imports%20sin%20asterisco.png)
+![imports sin asterisco](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/070d34e9-dee3-4370-8e6a-2160249c69b1)
+
+
+
 
 ---
 
@@ -125,6 +138,38 @@ Almacenar la información de un cliente en una base de datos Oracle mediante un 
 
 La salida esperada debe reflejar la misma información proporcionada como entrada. La salida se obtiene realizando una consulta SELECT utilizando el id recibido.
 Se trata de un desarrollo robusto que asegura la consistencia y calidad en la gestión de la información del cliente en la base de datos Oracle. Creando un sistema eficiente y confiable.
+
+## Packages del proyecto
+
+🔹 dtos -  WIKJC001
+        1. CustomerIn
+        2. CustomerOut
+           Con los campos:
+            ```java
+            	private String id;
+	            private String nuip;
+	            private String fullName;
+	            private String phone;
+	            private String address;
+            ```
+
+ 🔹 libraries - a- WIKJR001
+                      1. WIKJR001
+                b- WIKJR001_IMPL
+                     src- main - java - [...]
+                       1. WIKJR001Abstract
+                       2. WIKJR001Impl
+                     src - main - resources
+                       1. sql-WIKJT001IMPL.properties
+
+  🔹 transactions -  WIKJT001-01-ES
+                        src- main - java - [...]
+                          1. AbstractWIKJT00101ESTransaction
+                          2. WIKJT00101ESTransaction
+                        src - main - resources
+                          1. WIKJT001-01-ES.xml
+
+           
 
 ### Pruebas realizadas
 
