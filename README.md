@@ -148,7 +148,7 @@ Se trata de un desarrollo robusto que asegura la consistencia y calidad en la ge
         1. CustomerIn
         2. CustomerOut
            Con los campos:
-            ```java
+```java
 	    
             	private String id;
 	     
@@ -160,7 +160,7 @@ Se trata de un desarrollo robusto que asegura la consistencia y calidad en la ge
 	     
 	        private String address;
 	 
-            ```
+```
 
  🔹 libraries - a- WIKJR001
  
