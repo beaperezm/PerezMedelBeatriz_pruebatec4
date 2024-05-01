@@ -148,8 +148,8 @@ Se trata de un desarrollo robusto que asegura la consistencia y calidad en la ge
         1. CustomerIn
         2. CustomerOut
            Con los campos:
+	   
             ```java
-	    
             	private String id;
 	     
 	        private String nuip;
@@ -159,7 +159,6 @@ Se trata de un desarrollo robusto que asegura la consistencia y calidad en la ge
 	        private String phone;
 	     
 	        private String address;
-	     
             ```
 
  🔹 libraries - a- WIKJR001
@@ -198,40 +197,56 @@ Se trata de un desarrollo robusto que asegura la consistencia y calidad en la ge
 
 🔹 Base de datos Oracle creada
 
-![bbdd vacia](/imagenes/def/1.%20BBDD%20vacia.png)
+![1  BBDD vacia](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/fc7d5e22-b5a7-417c-aa35-9cf4ea719e0c)
+
 
 🔹 Insertando nuevos datos desde Postman
 
-![insetando](/imagenes/def/2.%20Insertando%20nuevos%20datos%20Postman.png)
+![2  Insertando nuevos datos Postman](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/b419d073-f91d-4ce9-8d1e-12675343a6f7)
+
 
 Datos insertados en la Base de Datos
 
-![insetando bbdd](/imagenes/def/2.b%20%20Insertando%20nuevos%20datos%20DBeaver.png)
+![2 b  Insertando nuevos datos DBeaver](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/29ab4a6b-9ead-4e78-83d7-06de85fb4ad5)
+
 
 🔹 Intentando insertar datos con id que ya existe en la Base de Datos
 
-![id](/imagenes/def/3.%20Insertando%20nuevos%20datos%20pero%20con%20mismo%20id%20Postman.png)
+![3  Insertando nuevos datos pero con mismo id Postman](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/d5269185-8f8b-4531-82dc-d4b36938ad4d)
+
+
 
 🔹 Intentando insertar datos con nuip que ya existe en la Base de Datos
 
-![nuip](/imagenes/def/4.%20Insertando%20nuevos%20datos%20pero%20con%20nuip%20que%20ya%20existe%20en%20la%20BBDD%20-%20Postman.png)
+![4  Insertando nuevos datos pero con nuip que ya existe en la BBDD - Postman](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/2197fe0c-d66b-433b-be1d-42f7ae180924)
+
+
 
 🔹 Intentando insertar nuevos datos con un id que tiene más de 5 caracteres
 
-![id caracteres](/imagenes/def/5.%20%20Insertando%20id%20con%20mas%20de%205%20caracteres.png)
+![5   Insertando id con mas de 5 caracteres](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/747760f2-0a1b-4e41-9f9e-291adbcf0350)
+
+
 
 🔹 Intentando insertar nuevos datos con un nuip que tiene más de 10 caracteres
 
-![nuip caracteres](/imagenes/def/6.%20%20Insertando%20nuip%20con%20mas%20de%2010%20caracteres.png)
+![6   Insertando nuip con mas de 10 caracteres](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/91aa7948-9fe5-482a-ac25-796bab0dd026)
+
+
 
 🔹 Intentando insertar nuevos datos con un fullname que tiene más de 50 caracteres
 
-![fullname caracteres](/imagenes/def/7.%20%20Insertando%20fullname%20con%20mas%20de%2050%20caracteres.png)
+![7   Insertando fullname con mas de 50 caracteres](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/0d33ab95-73d8-454c-8330-6b7d6a9be9c4)
+
+
 
 🔹 Intentando insertar nuevos datos con un phone que tiene más de 15 caracteres
 
-![phone caracteres](/imagenes/def/8.%20%20Insertando%20phone%20con%20mas%20de%2015%20caracteres.png)
+![8   Insertando phone con mas de 15 caracteres](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/cbe62d2f-406d-42c2-a14e-bb29a650c4cf)
+
+
 
 🔹 Intentando insertar nuevos datos con un address que tiene más de 30 caracteres
 
-![address caracteres](/imagenes/def/9.%20%20Insertando%20address%20con%20mas%20de%2030%20caracteres.png)
+![9   Insertando address con mas de 30 caracteres](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/b75ed871-1d84-4751-80b7-37184a463107)
+
