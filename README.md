@@ -44,11 +44,14 @@ Se ha realizado el mapeo entre capas, realizando un flujo entre facade, business
 
 ![mas de 2 caracteres](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/6f25d770-6049-4943-b07b-b707218e3e51)
 
+
 ![2caracter](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/4a5b1af5-8386-419a-aa51-8188a3e1975d)
 ![2caracterresponse](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/8b8cc2a0-b831-44af-ae03-b8480b584245)
 
+
 ![1caracter](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/f37753f9-52d6-4c0f-89d1-69b18b89a68f)
 ![1caracterresponse](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/b8093f05-4d46-43a6-911b-95aeb31a995c)
+
 
 ![0caracter](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/9ea331ba-fd17-465c-8f1c-8147b9c4f8eb)
 ![0caracterresponse](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/fc266f9c-04fb-4464-abb2-0fd0c41470af)
@@ -146,27 +149,45 @@ Se trata de un desarrollo robusto que asegura la consistencia y calidad en la ge
         2. CustomerOut
            Con los campos:
             ```java
+	    
             	private String id;
-	            private String nuip;
-	            private String fullName;
-	            private String phone;
-	            private String address;
+	     
+	        private String nuip;
+	     
+	        private String fullName;
+	     
+	        private String phone;
+	     
+	        private String address;
+	     
             ```
 
  🔹 libraries - a- WIKJR001
+ 
                       1. WIKJR001
+		      
                 b- WIKJR001_IMPL
+		
                      src- main - java - [...]
+		     
                        1. WIKJR001Abstract
+		       
                        2. WIKJR001Impl
+		       
                      src - main - resources
+
                        1. sql-WIKJT001IMPL.properties
 
   🔹 transactions -  WIKJT001-01-ES
+  
                         src- main - java - [...]
+			
                           1. AbstractWIKJT00101ESTransaction
+			  
                           2. WIKJT00101ESTransaction
+			  
                         src - main - resources
+			
                           1. WIKJT001-01-ES.xml
 
            
