@@ -198,6 +198,16 @@ Se trata de un desarrollo robusto que asegura la consistencia y calidad en la ge
 
 🔹 Base de datos Oracle creada
 
+```java
+CREATE TABLE WIKJ."T_WIKJ_HAB_PRUEBAFINAL"(
+	id Number(5) NOT NULL PRIMARY KEY,
+	nuip Number(10),
+	full_name VARCHAR(50),
+	phone VARCHAR(15),
+	address VARCHAR(30)
+)
+```
+
 ![1  BBDD vacia](https://github.com/beaperezm/PerezMedelBeatriz_pruebatec4/assets/113792109/fc7d5e22-b5a7-417c-aa35-9cf4ea719e0c)
 
 
