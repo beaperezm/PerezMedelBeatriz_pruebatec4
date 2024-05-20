@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="WIKJT001" application="WIKJ" version="01" country="ES" language="ES">
+	<paramsIn>
+		<dto order="1" name="customerIn" mandatory="0" package="com.bbva.wikj.dto.customerpruebafinal.CustomerIn" artifactId="WIKJC001">
+			<parameter order="1" name="id" mandatory="1" type="String" size="5"/>
+			<parameter order="2" name="nuip" mandatory="0" type="String" size="10"/>
+			<parameter order="3" name="fullName" mandatory="0" type="String" size="50"/>
+			<parameter order="4" name="phone" mandatory="0" type="String" size="15"/>
+			<parameter order="5" name="address" mandatory="0" type="String" size="30"/>
+		</dto>
+	</paramsIn>
+	<paramsOut>
+		<dto order="1" name="customerOut" mandatory="0" package="com.bbva.wikj.dto.customerpruebafinal.CustomerOut" artifactId="WIKJC001">
+			<parameter order="1" name="id" mandatory="1" type="String" size="5"/>
+			<parameter order="2" name="nuip" mandatory="0" type="String" size="10"/>
+			<parameter order="3" name="fullName" mandatory="0" type="String" size="50"/>
+			<parameter order="4" name="phone" mandatory="0" type="String" size="15"/>
+			<parameter order="5" name="address" mandatory="0" type="String" size="30"/>
+		</dto>
+	</paramsOut>
+	<description>trxpruebafinal</description>
+</transaction>

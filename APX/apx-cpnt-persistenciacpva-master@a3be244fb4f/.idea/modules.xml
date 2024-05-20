@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/artifact/dtos/WIKJC999/WIKJC999.iml" filepath="$PROJECT_DIR$/artifact/dtos/WIKJC999/WIKJC999.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artifact/libraries/WIKJR999/WIKJR999.iml" filepath="$PROJECT_DIR$/artifact/libraries/WIKJR999/WIKJR999.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artifact/libraries/WIKJR999IMPL/WIKJR999IMPL.iml" filepath="$PROJECT_DIR$/artifact/libraries/WIKJR999IMPL/WIKJR999IMPL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artifact/transactions/WIKJT999-01-ES/WIKJT999-01-ES.iml" filepath="$PROJECT_DIR$/artifact/transactions/WIKJT999-01-ES/WIKJT999-01-ES.iml" />
+    </modules>
+  </component>
+</project>

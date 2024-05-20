@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/artifact/dtos/WIKJC001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/dtos/WIKJC001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/dtos/WIKJC030/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/dtos/WIKJC030/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/dtos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/dtos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/WIKJR001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/WIKJR001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/WIKJR001IMPL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/WIKJR001IMPL/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/WIKJR030/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/WIKJR030/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/WIKJR030IMPL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/WIKJR030IMPL/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/libraries/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/transactions/WIKJT001-01-ES/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/transactions/WIKJT001-01-ES/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/transactions/WIKJT030-01-CO/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/transactions/WIKJT030-01-CO/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/transactions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/artifact/transactions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
